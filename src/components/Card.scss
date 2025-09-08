@@ -1,0 +1,27 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  &__head {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__text {
+    color: #666;
+  }
+  &__actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    .btn {
+      height: 30px;
+      padding: 0 10px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      font-weight: 600;
+      cursor: pointer;
+      &.btn-danger { background: #dc2626; color: #fff; }
+      &.btn-success { background: #16a34a; color: #fff; }
+    }
+  }
+}

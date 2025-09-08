@@ -1,0 +1,90 @@
+.container {
+  margin: auto 25vw;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 24px;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+  list-style: none;
+  margin-bottom: 24px;
+}
+.primary-btn {
+  background: rgb(59, 130, 246);
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.logout-btn {
+  background: #ef4444;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  width: 420px;
+  max-width: 90vw;
+  padding: 20px 24px 16px;
+}
+.modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.modal-text {
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.btn-primary {
+  background: rgb(59, 130, 246);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.btn-secondary-outline {
+  background: #fff;
+  color: rgb(59, 130, 246);
+  border: 1px solid rgb(59, 130, 246);
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+}
