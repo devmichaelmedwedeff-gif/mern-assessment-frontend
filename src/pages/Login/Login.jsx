@@ -28,7 +28,7 @@ function Login() {
   return (
     <div className="page">
       <form onSubmit={handleSubmit} className="card">
-        <h2 className="title">Login</h2>
+        <h2 className="title">OOOOOO</h2>
         <div>
           <label className="label" htmlFor="email">
             Email
